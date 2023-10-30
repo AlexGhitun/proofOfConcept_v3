@@ -1,5 +1,6 @@
 package via.sdj3.proofofconcept_v3.service;
 
+import org.springframework.stereotype.Service;
 import via.sdj3.proofofconcept_v3.entity.Patient;
 import via.sdj3.proofofconcept_v3.repository.PatientRepository;
 
@@ -7,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class PatientService {
     private PatientRepository patientRepository;
 
