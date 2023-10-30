@@ -23,7 +23,7 @@ public class PatientController {
 
     // REQUESTS //
 
-    @PostMapping(value="/patient")
+    @PostMapping(value="/patients")
     public ResponseEntity<Object> addPatient(@RequestBody Patient patient){
         patientService.addPatient(patient);
         return new ResponseEntity<>("Patient is successfully added.", HttpStatus.CREATED);
@@ -35,7 +35,7 @@ public class PatientController {
         return new ResponseEntity<>(patients, HttpStatus.OK);
     }
 
-    @PostMapping(value="/patients/{Id}")
+    @GetMapping(value="/patients/{Id}")
     public ResponseEntity<Object> getPatientById(@PathVariable("Id") int id){
         Optional<Patient> patient = patientService.getPatientById(id);
         if (!patient.isPresent()){
