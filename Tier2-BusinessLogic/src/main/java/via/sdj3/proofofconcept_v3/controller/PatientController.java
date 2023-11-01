@@ -22,9 +22,15 @@ public class PatientController {
 
     @PostMapping(value="/patients/test")
     public ResponseEntity<Object> addPatient(@RequestBody Patient patient){
-        patientService.addPatient(patient);
-        System.out.println("Im about to return entity");
-        return new ResponseEntity<>("Patient is successfully added.", HttpStatus.CREATED);
+
+        try {
+			patientService.addPatient(patient);
+			System.out.println("Im about to return entity");
+			return ResponseEntity.ok().body(patient);
+		}
+		catch (Exception e){
+			return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
+		}
     }
 
     @GetMapping(value="/patients")

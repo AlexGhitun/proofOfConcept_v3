@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\BlazorApp\\BlazorApp.csproj": {}
+    "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/BlazorApp/BlazorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\BlazorApp\\BlazorApp.csproj": {
+    "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/BlazorApp/BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\BlazorApp\\BlazorApp.csproj",
+        "projectUniqueName": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/BlazorApp/BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\BlazorApp\\BlazorApp.csproj",
-        "packagesPath": "C:\\Users\\37062\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\BlazorApp\\obj\\",
+        "projectPath": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/BlazorApp/BlazorApp.csproj",
+        "packagesPath": "/Users/jakubkuka/.nuget/packages/",
+        "outputPath": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/BlazorApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\37062\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jakubkuka/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\HttpClients\\HttpClients.csproj": {
-                "projectPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\HttpClients\\HttpClients.csproj"
+              "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/HttpClients/HttpClients.csproj": {
+                "projectPath": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/HttpClients/HttpClients.csproj"
               }
             }
           }
@@ -66,21 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj": {
+    "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\37062\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\obj\\",
+        "projectPath": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/Domain/Domain.csproj",
+        "packagesPath": "/Users/jakubkuka/.nuget/packages/",
+        "outputPath": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\37062\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jakubkuka/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -125,21 +125,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\HttpClients\\HttpClients.csproj": {
+    "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/HttpClients/HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\HttpClients\\HttpClients.csproj",
+        "projectUniqueName": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/HttpClients/HttpClients.csproj",
         "projectName": "HttpClients",
-        "projectPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\HttpClients\\HttpClients.csproj",
-        "packagesPath": "C:\\Users\\37062\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\HttpClients\\obj\\",
+        "projectPath": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/HttpClients/HttpClients.csproj",
+        "packagesPath": "/Users/jakubkuka/.nuget/packages/",
+        "outputPath": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/HttpClients/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\37062\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jakubkuka/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -151,8 +151,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj"
+              "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/Domain/Domain.csproj": {
+                "projectPath": "/Users/jakubkuka/Desktop/school/Third semester/Sep3-Group5/proofOfConcept_v3/Tier1-Presentation/Domain/Domain.csproj"
               }
             }
           }
@@ -188,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
