@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\warsar\\IdeaProjects\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj": {}
+    "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\warsar\\IdeaProjects\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj": {
+    "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\warsar\\IdeaProjects\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\warsar\\IdeaProjects\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\warsar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\warsar\\IdeaProjects\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\37062\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\37062\\Documents\\GitHub\\proofOfConcept_v3\\Tier1-Presentation\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\warsar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\37062\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

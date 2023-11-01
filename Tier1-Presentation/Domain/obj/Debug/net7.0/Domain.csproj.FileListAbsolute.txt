@@ -1,0 +1,11 @@
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\37062\Documents\GitHub\proofOfConcept_v3\Tier1-Presentation\Domain\obj\Debug\net7.0\ref\Domain.dll

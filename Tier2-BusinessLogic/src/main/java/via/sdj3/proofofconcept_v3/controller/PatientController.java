@@ -13,9 +13,6 @@ import java.util.Optional;
 public class PatientController {
     private PatientService patientService;
 
-    public PatientController() {
-
-    }
 
     public PatientController(PatientService patientService) {
         this.patientService = patientService;
@@ -23,9 +20,10 @@ public class PatientController {
 
     // REQUESTS //
 
-    @PostMapping(value="/patients")
+    @PostMapping(value="/patients/test")
     public ResponseEntity<Object> addPatient(@RequestBody Patient patient){
         patientService.addPatient(patient);
+        System.out.println("Im about to return entity");
         return new ResponseEntity<>("Patient is successfully added.", HttpStatus.CREATED);
     }
 

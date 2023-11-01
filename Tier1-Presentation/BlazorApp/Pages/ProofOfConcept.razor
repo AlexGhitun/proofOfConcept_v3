@@ -1,4 +1,7 @@
 @page "/ProofOfConcept"
+@using HttpClients.ClientInterfaces
+@using Domain.DTOs
+@inject IPatientService patientService;
 
 <div class="card">
     <h3>Create User</h3>
@@ -9,21 +12,21 @@
         }
     </div>
     <div class="form-group field">
-        <label>User name:</label>
-        <input type="text" @bind="username" @bind:event="oninput"/>
+        <label>User id:</label>
+        <input type="text" @bind="id" @bind:event="oninput"/>
     </div>
     <div class="form-group field">
-        <label>Password:</label>
-        <input type="password" @bind="password" @bind:event="oninput"/>
+        <label>Patient name:</label>
+        <input type="text" @bind="name" @bind:event="oninput"/>
     </div>
     <div class="button-row">
-        <button @onclick="Register" disabled="@(string.IsNullOrEmpty(username))" class="acceptbtn">Create</button>
+        <button @onclick="Register" class="acceptbtn">Create</button>
     </div>
 </div>
 
 @code {
-    private string username = "";
-    private string password = "";
+    private string id = "";
+    private string name = "";
     private string resultMsg = "";
     private string color = "";
 
@@ -33,12 +36,13 @@
 
         try
         {
-    // register 
-    // await userService.Register(new UserRegisterDto(username,password)); // Error here
+            // register 
+            int idAsInt = int.Parse(id);
+            await patientService.ProofOfConcept(new PatientCreationDto(idAsInt,name)); // Error here
             
-            username = "";
-            password = "";
-            resultMsg = "User successfully created";
+            id = "";
+            name = "";
+            resultMsg = "Patient successfully created";
             color = "green";
         }
         catch (Exception e)
